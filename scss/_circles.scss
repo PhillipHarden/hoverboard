@@ -1,0 +1,13 @@
+.circle {
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition: 3s ease;   
+    border-radius: 8px; 
+
+    &:hover {
+        transition-duration: 0s;
+    }
+}
